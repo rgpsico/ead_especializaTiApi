@@ -1,7 +1,7 @@
 FROM php:7.4-fpm
 
 # Arguments defined in docker-compose.yml
-ARG user
+ARG user=ales
 ARG uid
 
 # Install system dependencies
