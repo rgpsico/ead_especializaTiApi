@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class CourseController extends Controller
 {
-    protected $repository;
+      protected $repository;
 
     public function __construct(CourseRepository $courseRepository)
     {
